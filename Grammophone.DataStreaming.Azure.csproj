@@ -7,8 +7,8 @@
     <ProjectGuid>{A7D43654-D7EA-4563-A92E-0B7BAD7D2DB5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gramma.DataStreaming.Azure</RootNamespace>
-    <AssemblyName>Gramma.DataStreaming.Azure</AssemblyName>
+    <RootNamespace>Grammophone.DataStreaming.Azure</RootNamespace>
+    <AssemblyName>Grammophone.DataStreaming.Azure</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -20,7 +20,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Gramma.DataStreaming.Azure.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Grammophone.DataStreaming.Azure.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -29,7 +29,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Gramma.DataStreaming.Azure.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Grammophone.DataStreaming.Azure.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Azure.KeyVault.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -74,13 +74,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Gramma.DataStreaming\Gramma.DataStreaming.csproj">
+    <ProjectReference Include="..\Grammophone.DataStreaming\Grammophone.DataStreaming.csproj">
       <Project>{9841e0b6-915b-4ec6-b2ec-43a83e112c91}</Project>
-      <Name>Gramma.DataStreaming</Name>
+      <Name>Grammophone.DataStreaming</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Gramma.GenericContentModel\Gramma.GenericContentModel.csproj">
+    <ProjectReference Include="..\Grammophone.GenericContentModel\Grammophone.GenericContentModel.csproj">
       <Project>{79d2d4c7-c8de-4f11-93ed-aa4e4d2fc974}</Project>
-      <Name>Gramma.GenericContentModel</Name>
+      <Name>Grammophone.GenericContentModel</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

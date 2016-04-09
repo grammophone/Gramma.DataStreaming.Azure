@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.WindowsAzure.Storage;
 
-namespace Gramma.DataStreaming.Azure
+namespace Grammophone.DataStreaming.Azure
 {
 	/// <summary>
 	/// Streamer for reading and writing to an Azure blob container.
